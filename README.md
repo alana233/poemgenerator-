@@ -1,2 +1,4 @@
-# poemgenerator-
-generates random poems based on my theme: New York poems 
+Automatic-Square-Poem
+=====================
+
+Click the button to automatically generate a new poem.
