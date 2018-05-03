@@ -1,0 +1,67 @@
+<!-- Automatic Square Poem Generator by Lake http://www.languageisavirus.com/square-poetry/automatic-square-poem-generator.html -->
+
+<!doctype html>
+<html><head><title> Random Square Poem</title>
+<style>
+div.box {
+	background-color: #efefef;
+	border:1px solid #dddddd;
+	margin: 0 auto;
+	font-family:ms sans serif;
+	font-size:11px;
+	padding:3px;
+	width:83px;
+}
+</style>
+<script src="square-poem-highlighter.js"></script>
+<script src="automatic-square-poem.js"></script>
+
+</head><body>
+<h2> Welcome, please make a poem!</h2>
+<h4>The poem below consists of words from "Awaking in New York" by Maya Angelou. Once you click "Generate Square Poem", you will create a random poem using the words above! Enjoy! </h4>
+
+
+
+<table width="500" border="0"><tbody><tr>
+<td align=center valign=middle><div class=box id="onea" onMouseover="highlightLineOne()" onMouseout="highlightNone()" style="cursor:crosshair;">Curtains</div></td>
+<td align=center valign=middle><div class=box id="oneb" onMouseover="highlightLineTwo()" onMouseout="highlightNone()" style="cursor:crosshair;">forcing</div></td>
+<td align=center valign=middle><div class=box id="onec" onMouseover="highlightLineThree()" onMouseout="highlightNone()" style="cursor:crosshair;">their</div></td>
+<td align=center valign=middle><div class=box id="oned" onMouseover="highlightLineFour()" onMouseout="highlightNone()" style="cursor:crosshair;">will</div></td>
+<td align=center valign=middle><div class=box id="onee" onMouseover="highlightLineFive()" onMouseout="highlightNone()" style="cursor:crosshair;">against</div></td>
+<td align=center valign=middle><div class=box id="onef" onMouseover="highlightLineSix()" onMouseout="highlightNone()" style="cursor:crosshair;">the</div></td></tr><tr>
+<td align=center valign=middle><div class=box id="twoa" onMouseover="highlightLineTwo()" onMouseout="highlightNone()" style="cursor:crosshair;">wind,</div></td>
+<td align=center valign=middle><div class=box id="twob">children</div></td>
+<td align=center valign=middle><div class=box id="twoc">sleep</div></td>
+<td align=center valign=middle><div class=box id="twod">exchanging</div></td>
+<td align=center valign=middle><div class=box id="twoe">dreams</div></td>
+<td align=center valign=middle><div class=box id="twof">with</div></td></tr><tr>
+<td align=center valign=middle><div class=box id="threea" onMouseover="highlightLineThree()" onMouseout="highlightNone()" style="cursor:crosshair;">seraphim</div></td>
+<td align=center valign=middle><div class=box id="threeb">The</div></td>
+<td align=center valign=middle><div class=box id="threec">city</div></td>
+<td align=center valign=middle><div class=box id="threed">drags</div></td>
+<td align=center valign=middle><div class=box id="threee">itself</div></td>
+<td align=center valign=middle><div class=box id="threef">awake</div></td></tr><tr>
+<td align=center valign=middle><div class=box id="foura" onMouseover="highlightLineFour()" onMouseout="highlightNone()" style="cursor:crosshair;">on</div></td>
+<td align=center valign=middle><div class=box id="fourb">subway</div></td>
+<td align=center valign=middle><div class=box id="fourc">straps</div></td>
+<td align=center valign=middle><div class=box id="fourd">and</div></td>
+<td align=center valign=middle><div class=box id="foure">I</div></td>
+<td align=center valign=middle><div class=box id="fourf">an</div></td></tr><tr>
+<td align=center valign=middle><div class=box id="fivea" onMouseover="highlightLineFive()" onMouseout="highlightNone()" style="cursor:crosshair;">alarm</div></td>
+<td align=center valign=middle><div class=box id="fiveb">awake</div></td>
+<td align=center valign=middle><div class=box id="fivec">as</div></td>
+<td align=center valign=middle><div class=box id="fived">a</div></td>
+<td align=center valign=middle><div class=box id="fivee">rumor</div></td>
+<td align=center valign=middle><div class=box id="fivef">of</div></td></tr><tr>
+<td align=center valign=middle><div class=box id="sixa" onMouseover="highlightLineSix()" onMouseout="highlightNone()" style="cursor:crosshair;">war</div></td>
+<td align=center valign=middle><div class=box id="sixb">lie</div></td>
+<td align=center valign=middle><div class=box id="sixc">of</div></td>
+<td align=center valign=middle><div class=box id="sixd">war</div></td>
+<td align=center valign=middle><div class=box id="sixe">lie</div></td>
+<td align=center valign=middle><div class=box id="sixf">stretching</div></td>
+</tr></table>
+</p></div>
+
+<div id="foo"><p><input type="button" value="Generate Square Poem" onClick="make_poem()"></p><p><h3>Nice Poem!</h3>
+
+</body></html>
